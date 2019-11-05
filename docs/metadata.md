@@ -9,7 +9,7 @@ Provider Requirements:
 ## Input Variables
 * `account_ids_for_sharing` (required): List of account IDs to allow launch permissions for
 * `attributes` (required): Additional attributes (e.g. `1`)
-* `client` (required): client, e.g. 'compass'
+* `client` (required): client, e.g. 'ifunky'
 * `delimiter` (default `"-"`): Delimiter to be used between `namespace`, `environment`, `stage`, `name` and `attributes`
 * `enabled` (default `true`): Set to false to prevent the module from creating any resources
 * `environment` (required): Environment, e.g. 'prod', 'staging', 'dev', 'pre-prod', 'UAT'

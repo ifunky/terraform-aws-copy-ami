@@ -3,7 +3,7 @@
 # AWS Module for Copying AMIs
  [![Build Status](https://travis/terraform-aws-copy-ami/badges/master/pipeline.svg)](https://travis/terraform-aws-copy-ami/pipelines)
 
-Copies AMIs from one region to another and optionally applies launch permissions to other accounts
+Copies AMIs from one region to another and optionally applies launch permissions to other accounts.
 
 ## Features
 
@@ -53,7 +53,7 @@ Provider Requirements:
 ## Input Variables
 * `account_ids_for_sharing` (required): List of account IDs to allow launch permissions for
 * `attributes` (required): Additional attributes (e.g. `1`)
-* `client` (required): client, e.g. 'iFunky'
+* `client` (required): client, e.g. 'ifunky'
 * `delimiter` (default `"-"`): Delimiter to be used between `namespace`, `environment`, `stage`, `name` and `attributes`
 * `enabled` (default `true`): Set to false to prevent the module from creating any resources
 * `environment` (required): Environment, e.g. 'prod', 'staging', 'dev', 'pre-prod', 'UAT'
