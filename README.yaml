@@ -6,8 +6,8 @@ title: AWS Module for Copying AMIs
 # Build Badges
 badges:
   - name: "Build Status"
-    image: "https://travis/terraform-aws-copy-ami/badges/master/pipeline.svg"
-    url: "https://travis/terraform-aws-copy-ami/pipelines"
+    image: "https://circleci.com/gh/ifunky/terraform-aws-copy-ami.svg?style=svg"
+    url: "https://circleci.com/gh/ifunky/terraform-aws-copy-ami"
 description: |-
   Copies AMIs from one region to another and optionally applies launch permissions to other accounts.
 

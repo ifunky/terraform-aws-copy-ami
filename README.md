@@ -1,7 +1,7 @@
 <!-- Auto generated file -->
 
 # AWS Module for Copying AMIs
- [![Build Status](https://travis/terraform-aws-copy-ami/badges/master/pipeline.svg)](https://travis/terraform-aws-copy-ami/pipelines)
+ [![Build Status](https://circleci.com/gh/ifunky/terraform-aws-copy-ami.svg?style=svg)](https://circleci.com/gh/ifunky/terraform-aws-copy-ami)
 
 Copies AMIs from one region to another and optionally applies launch permissions to other accounts.
 
