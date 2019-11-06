@@ -9,4 +9,4 @@ jobs:
           path: ~/terraform
       - run:
           name: Validate
-          command: make polydev/validate
+          command: make validate
