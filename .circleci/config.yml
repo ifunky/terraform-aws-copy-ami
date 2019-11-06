@@ -3,6 +3,8 @@ jobs:
   build:
     docker:
       - image: ifunky/polydev:latest
+        environment:
+          AWS_DEFAULT_REGION: eu-west-1 
     
     working_directory: ~/terraform
     steps:
