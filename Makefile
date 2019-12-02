@@ -64,7 +64,7 @@ polydev/help: ## Help on using PolyDev locally
 	@echo "--------------------------------------------------------------------------"
 	@echo "PolyDev Help - Running Helper Targets"
 	@echo "--------------------------------------------------------------------------"
-	@echo "Get yourself setup on PolyDev: https://git.fincore.com/cmp/polydev" 
+	@echo "Get yourself setup on PolyDev: https://www.github.com/ifunky/net/polydev" 
 	@echo 
 	@echo " - Run make targets polydev/{target} directly from your shell "
 	@echo " - To run the PolyDev interactive shell run make polydev"
